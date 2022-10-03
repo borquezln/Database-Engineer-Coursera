@@ -7,13 +7,13 @@ Little Lemon is a family-owned Mediterranean restaurant, focused on traditional 
 
 The Customers table contains the following data about each customer: Customer ID, Full name and phone number. 
 
-![Customers table](02-customers.PNG) 
+![Customers table](images\02-customers.PNG) 
 
 <br> 
 
 The Bookings table contains the following data on each booking: booking ID, booking date, table number, number of guests and the ID of the customer who made the booking. 
 
-![Bookings table](02-bookings.PNG) 
+![Bookings table](images\02-bookings.PNG) 
 
 **Note:** Before you begin, make sure you know how to access [MySQL environment](https://www.coursera.org/learn/database-structures-and-management-with-mysql/supplement/BSZK6/how-to-access-mysql-environment).
 
@@ -86,11 +86,11 @@ Please attempt the following tasks:
 
 **Task 1:** Little Lemon want a list of all customers who have made bookings. Write an INNER JOIN SQL statement to combine the full name and the phone number of each customer from the Customers table with the related booking date and 'number of guests' from the Bookings table. The expected output result should be the same as the following screenshot (assuming that you have created and populate the tables correctly.) 
 
-![The output result of the INNER JOIN task](02-InnerJoinTask.PNG) 
+![The output result of the INNER JOIN task](images\02-InnerJoinTask.PNG) 
 
 
 **Task 2:** Little Lemon want to view information about all existing customers with bookings that have been made so far. This data must include customers who haven’t made any booking yet. Write a LEFT JOIN SQL statement to view the customer id from Customers table and the related booking id from the Bookings table. The expected output result should be the same as the following screenshot (assuming that you have created and populate the tables correctly.)
 
-![The output result of the LEFT JOIN task](02-LeftJoinTask.PNG)  
+![The output result of the LEFT JOIN task](images\02-LeftJoinTask.PNG)  
 
  

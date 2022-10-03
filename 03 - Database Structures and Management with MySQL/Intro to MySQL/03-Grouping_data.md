@@ -11,7 +11,7 @@ Lucky Shrub is a medium-sized garden design firm that sells indoor and outdoor p
 
 The Orders table used for this lab contains the following data - OrderID, Department, OrderDate, OrderQty and OrderTotal as shown below.  
 
-![Orders table](03-M1L4I5Order.PNG) 
+![Orders table](images\03-M1L4I5Order.PNG) 
 
    
  
@@ -70,7 +70,7 @@ Please attempt the following tasks.
 
 The expected output result should be the same as the following screenshot (assuming that you have created and populated the tables correctly.) 
 
-![Task 1 output](03-M1L4I5task1output.PNG) 
+![Task 1 output](images\03-M1L4I5task1output.PNG) 
 
 
   
@@ -80,7 +80,7 @@ The expected output result should be the same as the following screenshot (assum
 
 The expected output result should be the same as the following screenshot (assuming that you have created and populated the tables correctly.) 
 
-![Task 2 output](03-M1L4I5task2output.PNG)  
+![Task 2 output](images\03-M1L4I5task2output.PNG)  
 
  
 
@@ -88,7 +88,7 @@ The expected output result should be the same as the following screenshot (assum
 
 The expected output result should be the same as the following screenshot (assuming that you have created and populated the tables correctly.) 
 
-![Task 3 output](03-M1L4I5task3output.PNG) 
+![Task 3 output](images\03-M1L4I5task3output.PNG) 
 
  
 
@@ -96,6 +96,6 @@ The expected output result should be the same as the following screenshot (assum
 
 The expected output result should be the same as the following screenshot (assuming that you have created and populated the tables correctly.) 
 
-![Task 4 output](03-M1L4I5task4output.PNG) 
+![Task 4 output](images\03-M1L4I5task4output.PNG) 
 
  

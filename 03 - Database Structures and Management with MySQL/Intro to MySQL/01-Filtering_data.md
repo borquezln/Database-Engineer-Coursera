@@ -7,7 +7,7 @@ Lucky Shrub is a medium-sized garden design firm that sells indoor and outdoor p
 
 The Orders table contains information about the Order ID, Client ID, Product ID, Quantity and Cost as shown below.  
 
- ![Orders table](01-orders.PNG) 
+ ![Orders table](images\01-orders.PNG) 
 
 Note: Before you begin, make sure you know how to access [MySQL environment](https://www.coursera.org/learn/database-structures-and-management-with-mysql/supplement/BSZK6/how-to-access-mysql-environment).
 
@@ -55,23 +55,23 @@ Please attempt the following tasks:
 
 **Task 1:** Write a SQL statement to print all records of orders where the cost is $250 or less. The expected output result should be the same as the following screenshot (assuming that you have populated the Orders table with the same data set) 
 
-![Task 1 output](01-task1output.PNG) 
+![Task 1 output](images\01-task1output.PNG) 
 
   
  
 
 **Task 2:** Write a SQL statement to print all records of orders where the cost is between $50 and $750. The expected output result should be the same as the following screenshot (assuming that you have populated the orders table with the same data set) 
 
-![Task 2 output](01-task2output.PNG)
+![Task 2 output](images\01-task2output.PNG)
 
  
 
 **Task 3:** Write a SQL statement to print all records of orders that have been placed by the client with the id of Cl3 and where the cost of the order is more than $100. The expected output result should be the same as the following screenshot (assuming that you have populated the Orders table with the same data set) 
 
-![Task 3 output](01-task3output.PNG) 
+![Task 3 output](images\01-task3output.PNG) 
 
  
 
 **Task 4:** Write a SQL statement to print all records of orders that have a product id of p1 or p2 and the order quantity is more than 2. The expected output result should be the same as the following screenshot (assuming that you have populated the Orders table with the same data set) 
 
-![Task 4 output](01-task4output.PNG)
+![Task 4 output](images\01-task4output.PNG)

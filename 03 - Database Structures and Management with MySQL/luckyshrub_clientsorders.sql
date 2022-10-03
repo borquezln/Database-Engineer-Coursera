@@ -6,10 +6,9 @@ CREATE TABLE Clients_Orders(
     ClientID VARCHAR(10),
     ProductID VARCHAR(10),
     Quantity INT,
-    Cost DECIMAL(6,2)
-);
+    Cost DECIMAL(6,2));
 
-INSERT INTO Clients_Orders(OrderID, ClientID, ProductID , Quantity, Cost) VALUES
+INSERT INTO Clients_Orders(OrderID, ClientID, ProductID, Quantity, Cost) VALUES
     (1, "Cl1", "P1", 10, 500),
     (2, "Cl2", "P2", 5, 100),
     (3, "Cl3", "P3", 20, 800),
@@ -17,6 +16,4 @@ INSERT INTO Clients_Orders(OrderID, ClientID, ProductID , Quantity, Cost) VALUES
     (5, "Cl3", "P3", 10, 450),
     (6, "Cl2", "P2", 5, 800),
     (7, "Cl1", "P4", 22, 1200),
-    (8, "Cl3", "P1", 15, 150),
-    (9, "Cl1", "P1", 10, 500),
-    (10, "Cl2", "P2", 5, 100);
+    (8, "Cl1", "P1", 15, 150);  

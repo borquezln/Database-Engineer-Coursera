@@ -1,20 +1,24 @@
 CREATE DATABASE IF NOT EXISTS little_lemon;
 USE little_lemon;
 
-CREATE TABLE Bookings ( 
+CREATE TABLE Bookings(
     BookingID INT,
-    TableNo INT,
-    GuestFirstName VARCHAR(100),
-    GuestLastName VARCHAR(100),
-    BookingSlot TIME,
-    EmployeeID INT,
-    PRIMARY KEY (BookingID)
+    BookingDate DATE,
+    TableNumber INT,
+    NumberOfGuests INT,
+    CustomerID INT
 );
 
-INSERT INTO Bookings VALUES
-    (1,12,'Anna','Iversen','19:00:00',1),
-    (2, 12, 'Joakim', 'Iversen', '19:00:00', 1),
-    (3, 19, 'Vanessa', 'McCarthy', '15:00:00', 3),
-    (4, 15, 'Marcos', 'Romero', '17:30:00', 4),
-    (5, 5, 'Hiroki', 'Yamane', '18:30:00', 2),
-    (6, 8, 'Diana', 'Pinto', '20:00:00', 5);
+INSERT INTO Bookings(BookingID, BookingDate, TableNumber, NumberOfGuests, CustomerID) VALUES
+    (10, '2021-11-10', 7, 5, 1),
+    (11, '2021-11-10', 5, 2, 2),
+    (12, '2021-11-10', 3, 2, 4),
+    (13, '2021-11-11', 2, 5, 5),
+    (14, '2021-11-11', 5, 2, 6),
+    (15, '2021-11-11', 3, 2, 7),
+    (16, '2021-11-11', 3, 5, 1),
+    (17, '2021-11-12', 5, 2, 2),
+    (18, '2021-11-12', 3, 2, 4),
+    (19, '2021-11-13', 7, 5, 6),
+    (20, '2021-11-14', 5, 2, 3),
+    (21, '2021-11-14', 3, 2, 4);
